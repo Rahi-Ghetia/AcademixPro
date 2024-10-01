@@ -1,0 +1,37 @@
+.no-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.no-page-container h1 {
+    font-size: 6rem;
+    color: #ff6b6b;
+    margin-bottom: 20px;
+}
+
+.no-page-container p {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.no-page-container .home-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.no-page-container .home-link:hover {
+    background-color: #0056b3;
+}

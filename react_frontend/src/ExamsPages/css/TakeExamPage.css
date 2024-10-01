@@ -1,0 +1,61 @@
+.take-exam-container {
+    max-width: 800px;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.take-exam-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.take-exam-container .alert {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+
+.take-exam-container .alert-info {
+    background-color: #17a2b8;
+}
+
+.take-exam-container .question-group {
+    margin-bottom: 15px;
+}
+
+.take-exam-container .question-group p {
+    margin: 0 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.take-exam-container .question-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.take-exam-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.take-exam-container button:hover {
+    background-color: #0056b3;
+}

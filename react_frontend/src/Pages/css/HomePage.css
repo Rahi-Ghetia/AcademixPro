@@ -1,0 +1,26 @@
+.home-page-div .header-info-div {
+    transition-duration: .5s;
+}
+
+.home-page-div .header-info-div:hover {
+    z-index: 1000;
+    transform: scale(1.1);
+}
+
+.home-page-div .basic-details-div {
+    transition-duration: .5s;
+}
+
+.home-page-div .basic-details-div:hover {
+    z-index: 1000;
+    transform: scale(1.05);
+}
+
+.home-page-div .basic-info-div {
+    transition-duration: .5s;
+}
+
+.home-page-div .basic-info-div:hover {
+    z-index: 1000;
+    transform: scale(1.1);
+}

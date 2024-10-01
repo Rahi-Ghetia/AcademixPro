@@ -1,0 +1,72 @@
+.exams-list-container {
+    max-width: 800px;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.exams-list-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.exams-list-container .alert {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+
+.exams-list-container .alert-danger {
+    background-color: #dc3545;
+}
+
+.exams-list-container .not-test-div {
+    padding: 10px;
+    background-color: rgba(0, 193, 74, 0.733);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.exams-list-container .exams-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.exams-list-container .exam-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.exams-list-container .exam-item h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.exams-list-container .exam-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.exams-list-container .exam-item small {
+    color: #888;
+}
+
+.exams-list-container .exam-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.exams-list-container .exam-item a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,86 @@
+/* SignUpFacultyForm.css */
+
+.signup-faculty-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.signup-faculty-container .signup-faculty-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.signup-faculty-container .signup-faculty-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.signup-faculty-container .signup-faculty-form div {
+    margin-bottom: 15px;
+}
+
+.signup-faculty-container .signup-faculty-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.signup-faculty-container .signup-faculty-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+.signup-faculty-container .signup-faculty-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-faculty-container .signup-faculty-form button:hover {
+    background-color: #0056b3;
+}
+
+.signup-faculty-container .signup-faculty-form .error-message {
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .signup-faculty-container .signup-faculty-form {
+        padding: 15px;
+    }
+
+    .signup-faculty-container .signup-faculty-form h2 {
+        font-size: 20px;
+    }
+
+    .signup-faculty-container .signup-faculty-form input {
+        font-size: 14px;
+    }
+
+    .signup-faculty-container .signup-faculty-form button {
+        font-size: 14px;
+    }
+}

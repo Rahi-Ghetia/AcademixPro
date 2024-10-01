@@ -1,0 +1,49 @@
+.notifications-container {
+    max-width: 600px;
+    margin: 5% auto;
+    margin-top: 5%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notifications-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.notifications-container .alert {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+
+.notifications-container .alert-danger {
+    background-color: #dc3545;
+}
+
+.notifications-container .notifications-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.notifications-container .notification-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.notifications-container .notification-item h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.notifications-container .notification-item p {
+    margin: 5px 0;
+}
+
+.notifications-container .notification-item small {
+    color: #888;
+}
