@@ -76,6 +76,3 @@ AcademixPro is a comprehensive web application designed to streamline academic m
 2. Use `http://localhost:8000` for backend API endpoints.
 
 **AcademixPro** aims to simplify academic management, providing a seamless experience for students, faculty, and administrators. By integrating various functionalities into a single platform, it enhances efficiency, communication, and overall academic performance.
-
-
-In python_backend install required dependencies by : pip install -r requirements.txt
