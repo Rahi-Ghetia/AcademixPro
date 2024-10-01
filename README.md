@@ -37,12 +37,12 @@ AcademixPro is a comprehensive web application designed to streamline academic m
 - Virtualenv
 
 ### Backend Setup
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/academixpro.git
-    cd academixpro/python_backend
-    ```
 
+1. Navigate to the backend directory:
+    ```sh
+    cd ../python_backend
+    ```
+    
 2. Install the required dependencies:
     ```sh
     pip install -r requirements.txt
