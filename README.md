@@ -101,7 +101,7 @@ AcademixPro is a comprehensive web application designed to streamline academic m
 2. Use `http://localhost:8000` for backend API endpoints.
 3. For Student Login Use | Username : 0 | Password : Student
 4. For Faculty Login Use | Username : Faculty | Password : Faculty
-5. For Admin Login Use Username : Academix | Password : Academix
+5. For Admin Login Use | Username : Academix | Password : Academix
 
 **AcademixPro** aims to simplify academic management, providing a seamless experience for students, faculty, and administrators. By integrating various functionalities into a single platform, it enhances efficiency, communication, and overall academic performance.
 
